@@ -1,0 +1,51 @@
+.container.testimonials__container{
+    width: 40%;
+    padding-bottom: 0rem;
+}
+.avatar{
+    width: 15rem;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    border-radius: 0 6rem 0 0;
+    margin: 0 auto 0rem;
+    
+}
+
+.testinmonial{
+    background: var(--color-bg-variant);
+    text-align: center;
+    padding: 2rem;
+    border-radius: 2rem;
+    user-select: none;
+}
+.review{
+    color: var(--color-light);
+    font-weight: 300;
+    display: block;
+    width: 80%;
+    margin: 0.8rem auto 0;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+    background: var(--color-primary);
+}
+
+
+ /* Media queries (medium devices) */
+ @media screen and (max-width: 1024px) {
+    .container.testimonials__container{
+    width: 60%;
+   }
+}
+
+   
+
+/* Media queries (small devices) */
+@media screen and (max-width: 600px) {
+    .container.testimonials__container{
+    width: var(--container-width-sm);
+   }
+   .review{
+    width: var(--container-width-sm);
+   }
+}
